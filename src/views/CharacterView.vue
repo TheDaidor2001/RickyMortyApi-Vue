@@ -18,7 +18,7 @@ console.log(store.data);
 <template>
     <button @click="router.push('/')" class="bg-green-600 rounded-lg text-white px-10 py-3 mb-20 ml-20">
         Volver
-    </button>   
+    </button>
     <div class="container-fluid flex">
         <div class="px-20">
             <img :src="data?.image" :alt="`Imagen de ${data?.name}`">
